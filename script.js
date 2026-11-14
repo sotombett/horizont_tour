@@ -83,7 +83,7 @@ if (typeof document !== 'undefined') {
     tourSelect.addEventListener('change', updateLivePrice);
     guestsInput.addEventListener('input', updateLivePrice);
 
-    // Автовыбор тура в форме при клике на кнопку «Выбрать →» в карточках
+    // Автовыбор тура в форме при клике на кнопку «Выбрать» в карточках
     const tourCardPrices = {
       'tour-altai': '45000',
       'tour-baikal': '38000',
